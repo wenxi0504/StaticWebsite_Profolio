@@ -52,7 +52,7 @@ a {
 max-width: 1200px;
 margin: 0 auto;
 padding: 0 50px;
-justify-content: center;
+justify-content: flex-start;
 }
 
 
@@ -69,7 +69,7 @@ justify-content: center;
 
 }
 
-/* #myIntro h1:nth-child(1){
+#myIntro h1:nth-child(1){
   animation-delay:1s;
 }
 
@@ -87,17 +87,19 @@ background-color:crimson;
 animation: text_reveal_box 1s ease;
 animation-delay:0.5s
 
-} */
+}
 
-/* #myIntro h1:nth-child(1) span {
+#myIntro h1:nth-child(1) span {
 	animation-delay: 0.5s;
 }
 #myIntro h1:nth-child(2) span {
 	animation-delay: 1.5s;
-} */
+}
 
 #myIntro .cta {
   display: inline-block;
+  margin-left: 5rem;
+  margin-bottom: 5rem;
   padding: 1rem 1rem;
   color: white;
   background-color: transparent;

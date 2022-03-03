@@ -35,41 +35,39 @@ a {
 }
 
 /* background blurring */
-#myIntro ::after {
+/* #myIntro ::after {
   content: '';
   position: absolute;
   left: 0px;
   top: 0px;
   height: 100%;
   width: 100%;
-  background-color:black;
+  background-color: black;
   opacity: 10%;
   z-index: -1;
-}
+} */
 
 /* setup the max-width window */
 #myIntro .myIntro{
 max-width: 1200px;
 margin: 0 auto;
 padding: 0 50px;
-justify-content: center;
+justify-content: flex-start;
 }
-
 
 
 #myIntro h1 {
-  
+  position: relative;
   display: block;
   width: fit-content;
   font-size: 4rem;
-  color: white;
-  /* animation: text_reveal 0.5s ease forwards;
+  color: transparent;
+  animation: text_reveal 0.5s ease forwards;
   animation-delay: 1s;
-*/
-
+  
 }
 
-/* #myIntro h1:nth-child(1){
+#myIntro h1:nth-child(1){
   animation-delay:1s;
 }
 
@@ -87,17 +85,19 @@ background-color:crimson;
 animation: text_reveal_box 1s ease;
 animation-delay:0.5s
 
-} */
+}
 
-/* #myIntro h1:nth-child(1) span {
+#myIntro h1:nth-child(1) span {
 	animation-delay: 0.5s;
 }
 #myIntro h1:nth-child(2) span {
 	animation-delay: 1.5s;
-} */
+}
 
 #myIntro .cta {
   display: inline-block;
+  margin-left: 5rem;
+  margin-bottom: 5rem;
   padding: 1rem 1rem;
   color: white;
   background-color: transparent;
@@ -118,7 +118,7 @@ animation-delay:0.5s
 /* end myIntro section */
 
 /* keyframes */
-/* @keyframes text_reveal_box {
+@keyframes text_reveal_box {
 	50% {
 		width: 100%;
 		left: 0;
@@ -132,4 +132,4 @@ animation-delay:0.5s
 	100% {
 		color: white;
 	}
-} */
+}

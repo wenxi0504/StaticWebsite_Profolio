@@ -48,12 +48,12 @@ a {
 }
 
 /* setup the max-width window */
-#myIntro .myIntro{
+/* #myIntro .myIntro{
 max-width: 1200px;
 margin: 0 auto;
 padding: 0 50px;
-justify-content: center;
-}
+justify-content: flex-start;
+} */
 
 
 

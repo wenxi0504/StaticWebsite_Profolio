@@ -52,7 +52,7 @@ a {
 max-width: 1200px;
 margin: 0 auto;
 padding: 0 50px;
-justify-content: center;
+justify-content: flex-start;
 }
 
 
@@ -98,6 +98,8 @@ animation-delay:0.5s
 
 #myIntro .cta {
   display: inline-block;
+  margin-left: 5rem;
+  margin-bottom: 5rem;
   padding: 1rem 1rem;
   color: white;
   background-color: transparent;
