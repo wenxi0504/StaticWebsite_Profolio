@@ -57,7 +57,7 @@ justify-content: center;
 
 
 #myIntro h1 {
-  display: block;
+  display: flex;
   width: fit-content;
   font-size: 4rem;
   color: white;

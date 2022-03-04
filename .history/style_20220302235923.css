@@ -56,7 +56,7 @@ justify-content: center;
 
 
 
-#myIntro h1 {
+h1 {
   display: block;
   width: fit-content;
   font-size: 4rem;
